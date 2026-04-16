@@ -39,7 +39,7 @@ Consumers can install a single skill from this repository with
 Example:
 
 ```bash
-npx skills add "https://github.com/frayer/skill-monorepo-demo#skills/skill-hello/v1.1.0" --skill skill-hello
+npx skills add "https://github.com/frayer/skills-monorepo-demo#skills/skill-hello/v1.1.0" --skill skill-hello
 ```
 
 That install pattern makes the release model explicit:
