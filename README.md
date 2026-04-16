@@ -25,7 +25,7 @@ This demo follows artifact-scoped tags in the form:
 
 Examples:
 
-- `skills/skill-hello/v1.0.0`
+- `skills/skill-hello/v1.1.0`
 - `skills/skill-hola/v1.0.0`
 
 That convention makes it clear which skill the tag belongs to and supports a
@@ -39,13 +39,13 @@ Consumers can install a single skill from this repository with
 Example:
 
 ```bash
-npx skills add "https://github.com/frayer/skill-monorepo-demo#skills/skill-hello/v1.0.0" --skill skill-hello
+npx skills add "https://github.com/frayer/skill-monorepo-demo#skills/skill-hello/v1.1.0" --skill skill-hello
 ```
 
 That install pattern makes the release model explicit:
 
 - the Git repository is the source
-- `skills/skill-hello/v1.0.0` is the immutable ref being installed
+- `skills/skill-hello/v1.1.0` is the immutable ref being installed
 - `--skill skill-hello` selects the specific skill from the monorepo
 
 ## What The Workflow Does
